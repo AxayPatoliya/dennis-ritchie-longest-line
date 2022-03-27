@@ -38,10 +38,10 @@ int main(){
         
         int *line_lengths = NULL; //create an integer pointer with value NULL
         line_lengths = (int*)calloc(line_nums, sizeof(int)); //allocate memory of the size of line_nums
-        for(int i=0; i<line_nums; ++i){
-            line_lengths = calloc(1, sizeof(int)); //assigning value to the pointer same as the size of one integer(4 bytes)
-            line_lengths++;
-        }
+        // for(int i=0; i<line_nums; ++i){
+        //     line_lengths = calloc(1, sizeof(int)); //assigning value to the pointer same as the size of one integer(4 bytes)
+        //     line_lengths++;
+        // }
         
 
         while(d!=EOF){
